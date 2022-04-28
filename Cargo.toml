@@ -1,0 +1,2 @@
+[workspace]
+members = ["x11-keysyms-runner", "x11-keysyms"]

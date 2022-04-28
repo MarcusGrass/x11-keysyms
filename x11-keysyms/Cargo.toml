@@ -1,0 +1,67 @@
+[package]
+name = "x11-keysyms"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[features]
+3270 = []
+apl = []
+arabic = []
+armenian = []
+b-keys = []
+braille = []
+caucasus = []
+currency = []
+cyrillic = []
+georgian = []
+greek = []
+hebrew = []
+katakana = []
+korean = []
+latin1 = []
+latin2 = []
+latin3 = []
+latin4 = []
+latin8 = []
+latin9 = []
+mathematical = []
+miscellany = []
+publishing = []
+sinhala = []
+special = []
+technical = []
+thai = []
+vietnamese = []
+all = [
+    "3270",
+    "apl",
+    "arabic",
+    "armenian",
+    "b-keys",
+    "braille",
+    "caucasus",
+    "currency",
+    "cyrillic",
+    "georgian",
+    "greek",
+    "hebrew",
+    "katakana",
+    "korean",
+    "latin1",
+    "latin2",
+    "latin3",
+    "latin4",
+    "latin8",
+    "latin9",
+    "mathematical",
+    "miscellany",
+    "publishing",
+    "sinhala",
+    "special",
+    "technical",
+    "thai",
+    "vietnamese",
+]
+
+[dependencies]
