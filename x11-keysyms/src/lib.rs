@@ -1,4 +1,5 @@
 #![allow(non_upper_case_globals)]
+#![no_std]
 pub const XK_VoidSymbol: u32 = 0xffffff;
 #[cfg(feature = "miscellany")]
 pub const XK_BackSpace: u32 = 0xff08;
