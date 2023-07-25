@@ -3,9 +3,18 @@ name = "x11-keysyms"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+publish = true
+readme = "../Readme.md"
+repository = "https://github.com/MarcusGrass/x11-keysyms"
+homepage = "https://github.com/MarcusGrass/x11-keysyms"
+description = "Rust bindings to x11-keysyms"
+documentation = "https://docs.rs/x11-keysyms"
+categories = ["external-ffi-bindings", "no-std"]
+keywords = ["ffi", "bindings", "x11", "linux"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [features]
+default = []
 3270 = []
 apl = []
 arabic = []
